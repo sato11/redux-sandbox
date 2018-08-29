@@ -1,0 +1,16 @@
+{
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "browserify": "^16.2.2",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "react-redux": "^5.0.7",
+    "redux": "^4.0.0"
+  },
+  "scripts": {
+    "build": "./node_modules/.bin/babel src -d build && ./node_modules/.bin/browserify ./build/index.js -o public/bundle.js"
+  }
+}
