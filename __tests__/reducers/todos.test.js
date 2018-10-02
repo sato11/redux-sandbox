@@ -34,7 +34,7 @@ describe('todos reducer', () => {
       {
         text:      'Run the test.',
         completed: false,
-      }
+      },
     ]);
   });
 

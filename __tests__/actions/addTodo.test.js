@@ -5,7 +5,7 @@ describe('actions', () => {
     const text = 'Finish docs';
     const expectedAction = {
       type: 'ADD_TODO',
-      id: 0,
+      id:   0,
       text,
     };
     expect(addTodo(text)).toEqual(expectedAction);

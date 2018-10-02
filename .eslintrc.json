@@ -1,0 +1,33 @@
+{
+    "extends": [
+        "airbnb",
+        "plugin:jest/recommended",
+        "plugin:import/errors",
+        "plugin:import/warnings"
+    ],
+    "globals": {
+        "document": true
+    },
+    "plugins": [
+        "jest"
+    ],
+    "rules": {
+        "key-spacing": [
+            "error",
+            {
+                "align": {
+                    "beforeColon": false,
+                    "afterColon": true,
+                    "on": "value"
+                }
+            }
+        ],
+        "import/prefer-default-export": false,
+        "import/no-unresolved": false,
+        "jsx-a11y/anchor-is-valid": false,
+        "jsx-a11y/click-events-have-key-events": false,
+        "jsx-a11y/no-noninteractive-element-interactions": false,
+        "no-plusplus": ["off"],
+        "react/button-has-type": false
+    }
+}
